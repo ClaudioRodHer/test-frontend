@@ -11,14 +11,14 @@ body{
     
 }
 nav{
-    display: flex;
+    display: grid;
     width: 100%;
 }
 nav>ul{
     display: flex;
     text-align: center;
 }
-li, p{
+li{
     text-align: right;
     color: var(--white, #FFF);
 font-family: Noto Sans;
@@ -29,10 +29,28 @@ line-height: normal;
 letter-spacing: 3px;
 text-transform: uppercase;
 list-style: none;
+padding-right: 36px;
 }
+ul{
+    display: block ruby;
+
+}
+li:hover{
+    background-color:white;
+    color:rgb(10, 10, 35);
+  }
+  p{
+    color: #FFF;
+text-align: right;
+font-family: Noto Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3px;
+  }
 #menu{
-    align-items: end;
-    width: 7%0;
+    width: 70%;
 }
 #telefono{
     width: 100%;
