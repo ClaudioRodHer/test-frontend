@@ -1,115 +1,142 @@
-body{
+body {
     background-image: url("../Resources/media/pexels-august-de-richelieu-4427430\ 1.jpg");
     background-size: cover;
 }
+
 /*MENU  */
-#logo{
+#logo {
     width: 30%;
 }
-#logolink{
-    background-image: url("../Resources/media/Logo.png");
-    
+
+#logo_menu {
+    display: flexl;
 }
-nav{
+
+nav {
     display: grid;
     width: 100%;
 }
-nav>ul{
+
+nav>ul {
     display: flex;
     text-align: center;
 }
-li{
+
+li {
     text-align: right;
     color: var(--white, #FFF);
-font-family: Noto Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 3px;
-text-transform: uppercase;
-list-style: none;
-padding-right: 36px;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    list-style: none;
+    padding-right: 36px;
 }
-ul{
+
+ul {
     display: block ruby;
 
 }
-li:hover{
-    background-color:white;
-    color:rgb(10, 10, 35);
-  }
-  p{
-    color: #FFF;
-text-align: right;
-font-family: Noto Sans;
-font-size: 28px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 3px;
-  }
-#menu{
-    width: 70%;
+
+li:hover {
+    background-color: white;
+    color: rgb(10, 10, 35);
 }
-#telefono{
+
+img {
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+p {
+    color: #FFF;
+    text-align: right;
+    font-family: Noto Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    padding-right: 4rem;
+}
+
+#menu {
+    width: 70%;
+    padding-left: 30rem;
+    padding-top: 2rem;
+}
+
+#telefono {
     width: 100%;
 }
+
 /*COntenido*/
-.contenmain{
+.contenmain {
     align-self: center;
 }
-main{
+
+main {
     display: grid;
     align-items: center;
 }
-h1{
-    color: var(--white, #FFF);
-text-align: center;
 
-/* H1 */
-font-family: Noto Serif;
-font-size: 140px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 42px;
-text-transform: uppercase;
-}
-h2{
+h1 {
     color: var(--white, #FFF);
-text-align: center;
-font-family: Noto Sans;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 9px;
-text-transform: uppercase;
+    text-align: center;
+
+    /* H1 */
+    font-family: Noto Serif;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 42px;
+    text-transform: uppercase;
 }
-.buttons{
+
+h2 {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+}
+
+.buttons {
     display: grid;
-    
+
 }
-button{
+
+#button {
+    text-align: center;
+}
+
+button {
     border: none;
     display: inline-flex;
-padding: 26px 40px;
-justify-content: center;
-align-items: center;
-gap: 16px;
+    padding: 26px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
     background: #F00;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
-color: var(--white, #FFF);
-text-align: center;
+    color: var(--white, #FFF);
+    text-align: center;
 
-/* Button text */
-font-family: Noto Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-letter-spacing: 4px;
-text-transform: uppercase;
+    /* Button text */
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
